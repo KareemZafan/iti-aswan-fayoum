@@ -1,9 +1,26 @@
 #include <stdio.h>
 #include <math.h>
 
+enum {
+false,
+true
+}boolean; 
+
 int getMax(int a , int b){
 
  return (a > b) ? a : b; 
+}
+
+
+double getAverage(double a , double b){
+
+ return ( a + b ) / 2; 
+}
+
+
+boolean isDividedBy2(int a){
+
+ return (a % 2) == 0;  
 }
 
 double getSquareRoot(double a){
