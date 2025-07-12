@@ -15,8 +15,7 @@ int main(void){
 
  printf("Hello World");
  
- printf("Max of(%d,%d) is %d",a,b,getMax(a,b)); 
- printf("Square root of(%d) is %d",100,getSquareRoot(100)); 
- 
- 
+ printf("Max of(%d,%d) is %d",100,200,getMax(100,200)); // 200 
+ printf("Square root of(%f) is %0.2f",100,getSquareRoot(100)); //10.00
+ //test
 }
